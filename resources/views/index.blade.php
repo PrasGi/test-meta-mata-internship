@@ -44,7 +44,7 @@
         <div class="col-6">
             <div class="row justify-content-start">
                 @foreach ($datas as $data)
-                    <div class="col-4 p-2">
+                    <div class="col-sm-4 p-2">
                         <div class="card" style="width: 15rem;">
                             <img src="{{ asset('foto1.png') }}" class="card-img-top" alt="...">
                             <div class="card-body">
